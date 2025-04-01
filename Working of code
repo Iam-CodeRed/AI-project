@@ -1,0 +1,18 @@
+Working of the Code
+User Input: The program prompts the user to enter a sentence.
+
+Sentiment Analysis:
+
+The input text is processed using the TextBlob library.
+
+TextBlob(text).sentiment.polarity calculates the polarity score of the sentence, ranging from -1 (negative) to 1 (positive).
+
+Polarity Interpretation:
+
+If polarity is greater than 0, the sentiment is Positive.
+
+If polarity is less than 0, the sentiment is Negative.
+
+If polarity is exactly 0, the sentiment is Neutral.
+
+Result Display: The program prints the sentiment classification based on the polarity score.
